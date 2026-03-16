@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+
+# Local environment variables
+.env
+.env.*
+
+# Python tooling
+.python-version
+
+# Notebook exports / temporary files
+*.nbconvert.ipynb
+
+# Streamlit / app caches
+.streamlit/secrets.toml
+
+# Data artifacts
+data/interim/*
+data/processed/*
+data/external/*
+models/*
+
+# Keep directory structure
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/raw/.gitkeep
+!models/.gitkeep

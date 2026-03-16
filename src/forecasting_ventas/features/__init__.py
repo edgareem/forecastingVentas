@@ -1,0 +1,1 @@
+"""Modulo para construccion de variables."""
